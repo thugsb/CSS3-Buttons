@@ -2,12 +2,11 @@
  * CSS written by Catalin Rosu A.K.A. Red
  * http://www.red-team-design.com/just-another-awesome-css3-buttons
  * 
- * Added to github by thugsb
- * https://github.com/thugsb/css3.buttons
+ * Added to github by Stu Basden A.K.A. thugsb on 2011.11.24
+ * https://github.com/thugsb/CSS3-Buttons
 **/
 
-.button
-{        
+.button {        
   display: inline-block;
   white-space: nowrap;
   background-color: #ddd;
@@ -31,9 +30,7 @@
   -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
   box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
 }
-
-.button:hover
-{
+.button:hover {
   background-color: #eee;        
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
   background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
@@ -42,24 +39,18 @@
   background-image: -o-linear-gradient(top, #fafafa, #ddd);
   background-image: linear-gradient(top, #fafafa, #ddd);
 }
-
-.button:active
-{
+.button:active {
   -moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
   -webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
   box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
   position: relative;
   top: 1px;
 }
-
-.button:focus
-{
+.button:focus {
   outline: 0;
   background: #fafafa;
 }    
-
-.button:before
-{
+.button:before {
   background: #ccc;
   background: rgba(0,0,0,.1);
   float: left;        
@@ -78,29 +69,24 @@
 }
 
 /* Buttons and inputs */
-
-button.button, input.button 
-{ 
+button.button, input.button { 
   cursor: pointer;
   overflow: visible; /* removes extra side spacing in IE */
 }
 
 /* removes extra inner spacing in Firefox */
-button::-moz-focus-inner 
-{
+button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 /* If line-height can't be modified, then fix Firefox spacing with padding */
-input::-moz-focus-inner 
-{
+input::-moz-focus-inner {
   padding: .4em;
 }
 
 /* The disabled styles */
-.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover 
-{
+.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover {
   background: #eee;
   color: #aaa;
   border-color: #aaa;
@@ -113,62 +99,21 @@ input::-moz-focus-inner
 }
 
 /* Hexadecimal entities for the icons */
-
-.add:before
-{
-  content: "\271A";
-}
-
-.edit:before
-{
-  content: "\270E";        
-}
-
-.delete:before
-{
-  content: "\2718";        
-}
-
-.save:before
-{
-  content: "\2714";        
-}
-
-.email:before
-{
-  content: "\2709";        
-}
-
-.like:before
-{
-  content: "\2764";        
-}
-
-.next:before
-{
-  content: "\279C";
-}
-
-.star:before
-{
-  content: "\2605";
-}
-
-.spark:before
-{
-  content: "\2737";
-}
-
-.play:before
-{
-  content: "\25B6";
-}
+.add:before{content: "\271A";}
+.edit:before {content:"\270E";}
+.delete:before {content:"\2718";}
+.save:before {content:"\2714";}
+.email:before {content:"\2709";}
+.like:before {content:"\2764";}
+.next:before {content:"\279C";}
+.star:before {content:"\2605";}
+.spark:before {content:"\2737";}
+.play:before {content:"\25B6";}
 
 
 /* Social media buttons */	
 .tw, .fb,
-.tw:hover, .fb:hover
-{
+.tw:hover, .fb:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.5)), to(rgba(255,255,255,0)));
   background-image: -webkit-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
   background-image: -moz-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
@@ -176,42 +121,30 @@ input::-moz-focus-inner
   background-image: -o-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
   background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
 }
-
-.tw, .tw:focus
-{
+.tw, .tw:focus {
   background-color: #88E1E6;
 }
-
-.fb, .fb:focus
-{
+.fb, .fb:focus {
   background-color: #3C5A98;
   color: #fff;	  
   text-shadow: 0 1px 0 rgba(0,0,0,.4);		
 }
-
-.tw:hover
-{
+.tw:hover {
   background-color: #b1f0f3;
 }
-
-.fb:hover
-{
+.fb:hover {
   background-color: #879bc3; 
 }
-
-.tw:before
-{
-  content: "t";
+.tw:before {
+  content:"t";
   background: #91cfd3;
   background: rgba(0,0,0,.1);		
   color: #fff;
   font-family: verdana;
   text-shadow: 0 1px 0 rgba(0,0,0,.4);
 }
-
-.fb:before
-{
-  content: "f";
+.fb:before {
+  content:"f";
   background: #4467ac;
   background: rgba(0,0,0,.1);		
   color: #fff;	
