@@ -4,11 +4,7 @@ Whether you’re designing a website or a web application, you’ll need buttons
 
 ## <a href="http://www.red-team-design.com/wp-content/uploads/2011/09/awesome-css3-buttons.html">View demo</a>
 
-#### Written by <a href="http://www.red-team-design.com">Red</a>
-
-Catalin Rosu, a.k.a Red, is a professional web designer and developer who loves to be creative and enjoys CSS techniques. Stay tuned for latest updates, <a href="http://feeds.feedburner.com/redteamdesign"><b>subscribe to RSS</b></a> and <a href="http://www.twitter.com/catalinred"><b>follow him on Twitter</b></a>.
-
-*The CSS has been copied to github without the author's permission, in order to create a backup and allow branching for colour themes and additions.*
+Go to the [article][3]
 
 In order to create the icons, this set of CSS3 buttons uses [HTML entities][1].
 
@@ -32,7 +28,11 @@ In order to create the icons, this set of CSS3 buttons uses [HTML entities][1].
 
 The icons are added using the `:before` [pseudo-element][2]. Therefore, you won’t see any icons in browsers like IE7 and below, but the buttons will look good yet.
 
-Go to the [article][3]
+#### Written by <a href="http://www.red-team-design.com">Red</a>
+
+Catalin Rosu, a.k.a Red, is a professional web designer and developer who loves to be creative and enjoys CSS techniques. Stay tuned for latest updates, <a href="http://feeds.feedburner.com/redteamdesign"><b>subscribe to RSS</b></a> and <a href="http://www.twitter.com/catalinred"><b>follow him on Twitter</b></a>.
+
+*The CSS has been copied to github without the author's permission, in order to create a backup and allow branching for colour themes and additions.*
 
  [1]: http://en.wikipedia.org/wiki/Html_entity
  [2]: http://www.red-team-design.com/before-after-pseudo-elements "The :before and :after pseudo-elements syntax"
