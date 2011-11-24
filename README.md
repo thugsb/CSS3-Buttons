@@ -28,6 +28,8 @@ In order to create the icons, this set of CSS3 buttons uses [HTML entities][1].
 
 The icons are added using the `:before` [pseudo-element][2]. Therefore, you won’t see any icons in browsers like IE7 and below, but the buttons will look good yet.
 
+Please suggest improvements and/or additions that should be made. Also let me know if you branch it to use different colours (or other?). Thanks!
+
 #### Written by <a href="http://www.red-team-design.com">Red</a>
 
 Catalin Rosu, a.k.a Red, is a professional web designer and developer who loves to be creative and enjoys CSS techniques. Stay tuned for latest updates, <a href="http://feeds.feedburner.com/redteamdesign"><b>subscribe to RSS</b></a> and <a href="http://www.twitter.com/catalinred"><b>follow him on Twitter</b></a>.
